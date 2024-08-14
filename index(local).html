@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Локации</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrap">
+        <div class="logo-group">
+          <img src="./images/logo-1.svg" class="logo-1" />
+          <img src="./images/logo-2.svg" alt="" class="logo-2" />
+        </div>
+        <a href="#" class="exit">
+          <img src="./images/exit.svg" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="sidebar">
+        <ul class="sidebar_menu">
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/staff.svg" alt="" />
+              Имущество
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/invent.svg" alt="" />
+              Инвентаризация
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/people.svg" alt="" />
+              Сотрудники
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/message.svg" alt="" />
+              Уведомления
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/local.svg" alt="" />
+              Локации
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link">
+              <img src="./images/detail.svg" alt="" />
+              Настройка
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar_link link-hide">
+              <img src="./images/arrow-left.svg" alt="" />
+              Скрыть меню
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="main-content">
+        <nav class="menu">
+          <h2 class="title">Локации / Все локации</h2>
+          <div class="menu_wrapper">
+              <div class="menu_block-right">
+                <ul class="menu_list">
+                  <li>
+                    <a href="#" class="menu_link"> Все локации </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link"> Импорт/Экспорт </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link"> Настройки </a>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn_location">
+                  <img src="./images/plus.svg" alt="" />
+                  Создать локацию
+                </button>
+              </div>
+            <div class="menu_block-left">
+              <button type="button" class="btn btn_timing">
+                <img src="./images/timing-icon.svg" alt="" />
+                синхронизация
+                <span>(17.05.2024 15:23:21)</span>
+              </button>
+              <div class="search_block">
+                 <input class="table_checkbox" id="checkbox" type="checkbox" checked>
+                 <label for="checkbox" class="checkbox-label"></label>
+                <p class="search_check-text">Поиск по точному вхождению</p>
+                <input type="search" class="search" placeholder="Поиск">
+              </div>
+            </div>
+          </div>
+        </nav>     
+
+        <div class="table_block">
+          <div class="row level-1">
+            <div class="icon_group">
+              <img src="./images/circle-minus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Локация 1</p>
+            <span class="col_count"> 512 </span>
+            <a href="#" class="link_change">
+              <img src="./images/pen.svg" alt="" />
+              Редактировать
+            </a>
+            <a href="#" class="link_delete">
+              <img src="./images/X.svg" alt="" />
+              Удалить
+            </a>
+          </div>
+          <div class="row level-2">
+            <div class="icon_group">
+              <img src="./images/circle-plus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Подотдел 1</p>
+            <span class="col_count"> 10 </span>
+            <p class="col_purpose">Для утерь</p>
+          </div>
+          <div class="row level-2">
+            <div class="icon_group">
+              <img src="./images/circle-minus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Подотдел 2</p>
+            <span class="col_count"> 100 </span>
+          </div>
+          <div class="row level-3">
+            <div class="icon_group">
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Подподотдел 1</p>
+            <span class="col_count"> 10 </span>
+            <p class="col_purpose">Виртуальная</p>
+            <p class="haveCode">Без штрихкода</p>
+          </div>
+          <div class="row level-2">
+            <div class="icon_group">
+              <img src="./images/circle-plus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Подотдел 3</p>
+            <span class="col_count"> 400 </span>
+          </div>
+          <div class="row level-1">
+            <div class="icon_group">
+              <img src="./images/circle-minus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Локация 2</p>
+            <span class="col_count"> 100 </span>
+          </div>
+          <div class="row level-1">
+            <div class="icon_group">
+              <img src="./images/circle-minus.svg" alt="" />
+              <img src="./images/dots.svg" alt="" />
+            </div>
+            <p class="col_name">Локация 3</p>
+            <span class="col_count"> 100 </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_date-group">
+        <p class="start_date">Последний приём 20.09.2021 18:36:21</p>
+        <p class="last_date">Последняя передача 20.09.2021 18:38:21</p>
+      </div>
+      <a href="#" class="footer_link">
+        <img src="./images/document.svg" alt="" />
+        Документация</a
+      >
+    </footer>
+
+    <div id="overlay"></div>
+    <div class="popup create_popup">
+      <a href="#" title="Close" class="close">X</a>
+      <form class="popup_form" id="form-1">
+        <h3 class="form_title">Создать локацию</h3>
+        <input type="text" class="form_control" placeholder="Название" />
+        <input type="text" class="form_control" placeholder="Штрихкод" />
+        <input type="text" class="form_control" placeholder="RFID" />
+        <select class="form_control form_dropdown">
+          <option>Вложенность</option>
+          <option>Локация 1</option>
+          <option>Локация 2</option>
+          <option>Локация 3</option>
+        </select>
+        <div class="switch_block">
+          Виртуальная локация
+          <label class="switch">
+            <input type="checkbox" class="switch1" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="switch_block">
+          Локация для утерь
+          <label class="switch">
+            <input type="checkbox" class="switch2" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="form_btns">
+          <button type="button" class="btn form_btn-create">
+            <img src="./images/create-save-icon.svg" alt="">
+            Создать</button>
+          <button type="reset" class="btn form_btn-reset">Отменить</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="popup change_popup">
+      <a href="#" title="Close" class="close close2">X</a>
+      <form class="popup_form" id="form-2">
+        <h3 class="form_title">Изменить локацию %название%</h3>
+        <div class="input_group">
+          <label for="name">Название</label>
+          <input type="text" id="name" class="form_control" />
+        </div>
+        <div class="input_group">
+          <label for="code">Штрихкод</label>
+          <input type="text" id="code" class="form_control" />
+        </div>
+        <div class="input_group">
+          <label for="RFID">RFID</label>
+          <input type="text" id="RFID" class="form_control" />
+        </div>
+      <div class="input_group">
+        <label for="local">Вложенность</label>
+        <select id="local" class="form_control form_dropdown"">
+          <option>Локация 1</option>
+          <option>Локация 2</option>
+          <option>Локация 3</option>
+        </select>
+      </div>
+        <div class="switch_block">
+          Виртуальная локация
+          <label class="switch">
+            <input type="checkbox" class="switch1" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="switch_block">
+          Локация для утерь
+          <label class="switch">
+            <input type="checkbox" class="switch2" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="form_btns">
+          <button type="button" class="btn form_btn-delete">
+            <img src="./images/delete-icon.svg" alt="">
+            Удалить</button>
+          <button type="reset" class="btn form_btn-reset">Отменить</button>
+        </div>
+        <button type="button" class="btn btn_save">
+          <img src="./images/create-save-icon.svg" alt="">
+          Сохранить</button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
